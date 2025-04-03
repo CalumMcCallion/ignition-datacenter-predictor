@@ -30,4 +30,32 @@ A predictive maintenance module for data centers that uses historical and curren
 
 ### Building from Source
 
-1. Clone the repository:
+1. Clone the repository: git clone https://github.com/yourusername/ignition-datacenter-predictor.git
+2. cd ignition-datacenter-predictor
+3.Build the module: ./gradlew clean build
+4. Find the built module in `build/modules/`
+
+## Configuration
+
+After installing the module, configure it through the Gateway web interface:
+
+1. Go to Config > DataCenterPredictor
+2. Configure equipment monitoring settings
+3. Set up machine learning parameters
+4. Configure alert thresholds
+
+## Usage
+
+The module provides:
+
+- Perspective components for visualization
+- Script functions for predictions and reporting
+- REST API endpoints for integration
+
+## License
+
+
+
+## Contributing
+
+
